@@ -1,0 +1,16 @@
+{
+  "id": "deal-onboarding-agent",
+  "name": "Deal Onboarding Agent",
+  "version": "1.0.0",
+  "protocol": "A2A",
+  "capabilities": [
+    "validate_property_data",
+    "normalize_property_data",
+    "persist_property_data",
+    "trigger_marketing_agent"
+  ],
+  "endpoints": {
+    "agent_card": "/.well-known/agent-card.json",
+    "onboard_deal": "/a2a/onboard_deal"
+  }
+}

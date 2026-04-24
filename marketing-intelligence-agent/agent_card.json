@@ -1,0 +1,17 @@
+{
+  "id": "marketing-intelligence-agent",
+  "name": "Marketing Intelligence Agent",
+  "version": "1.0.0",
+  "protocol": "A2A",
+  "capabilities": [
+    "analyze_property",
+    "generate_market_insights",
+    "embed_and_store_insights",
+    "rag_retrieval_for_queries"
+  ],
+  "endpoints": {
+    "agent_card": "/.well-known/agent-card.json",
+    "analyze_property": "/a2a/analyze_property",
+    "query_insights": "/a2a/query_insights"
+  }
+}

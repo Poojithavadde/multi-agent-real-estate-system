@@ -1,0 +1,16 @@
+{
+  "id": "customer-onboarding-agent",
+  "name": "Customer Onboarding Agent",
+  "version": "1.0.0",
+  "protocol": "A2A",
+  "capabilities": [
+    "validate_customer_input",
+    "structure_customer_data",
+    "persist_customer_data",
+    "return_customer_id"
+  ],
+  "endpoints": {
+    "agent_card": "/.well-known/agent-card.json",
+    "onboard_customer": "/a2a/onboard_customer"
+  }
+}

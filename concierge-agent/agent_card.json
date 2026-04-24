@@ -1,0 +1,16 @@
+{
+  "id": "concierge-agent",
+  "name": "Concierge Orchestrator Agent",
+  "version": "1.0.0",
+  "protocol": "A2A",
+  "capabilities": [
+    "agent_discovery",
+    "request_routing",
+    "workflow_orchestration",
+    "response_aggregation"
+  ],
+  "endpoints": {
+    "agent_card": "/.well-known/agent-card.json",
+    "handle_request": "/a2a/handle_request"
+  }
+}
